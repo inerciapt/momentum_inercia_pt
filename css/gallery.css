@@ -1,7 +1,7 @@
 ﻿/* Reset */
 :root {
   --container-padding: 1.5em;
-  --container-width: 1260px;
+  --container-width: 1060px;
 }
 
 * {
@@ -15,16 +15,33 @@
 body {
   margin: 0;
   background-color: #363636;
-  font: 1em/160% sans-serif;
+  font: 1em/160% 'Sono', monospace, sans-serif;
 }
 
 .main {
-  font-family: 'Sono', monospace, sans-serif;
+  padding: 10px;
+  color: #A9A9A9;
+  text-align: center;
+}
+
+a {
   color: #A9A9A9;
 }
 
-h2 {
-  text-align: center;
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 img {
@@ -39,6 +56,7 @@ img {
   background-color: #4A4A4A;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 0px 15px 0px 15px;
 }
 
 /* Gallery layout */
